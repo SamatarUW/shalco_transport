@@ -15,13 +15,19 @@ body {
 }
 
 .carousel-item {
-  height: 72vh;
+  height: 72.3vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .portfolio-item {
@@ -50,4 +56,8 @@ body {
   display: flex;
   justify-content: center;
   color: #0084b4;
+}
+
+.contact-details {
+  margin-bottom: 20px;
 }
